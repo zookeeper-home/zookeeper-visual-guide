@@ -1,0 +1,28 @@
+{
+  "name": "zookeeper-visual-guide",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://zookeeper-home.github.io/zookeeper-visual-guide/",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "ZooKeeper 可视化教学索引门户",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  }
+}
