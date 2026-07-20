@@ -10,11 +10,11 @@
 
 | 主题 | 说明 | 链接 |
 |------|------|------|
-| 🗳️ ZAB 选举 | Leader 选举过程动画 | [查看](https://zookeeper-home.github.io/zk-election-visual/) |
-| 👁️ Watcher 机制 | 数据变更通知机制动画 | [查看](https://zookeeper-home.github.io/zk-watcher-visual/) |
-| ✍️ 写请求流程 | 2PC 提交流程动画 | [查看](https://zookeeper-home.github.io/zk-write-flow-visual/) |
-| ⏱️ Session 机制 | 会话与临时节点动画 | [查看](https://zookeeper-home.github.io/zk-session-visual/) |
-| 💥 故障容错 | 集群故障与恢复动画 | [查看](https://zookeeper-home.github.io/zk-fault-visual/) |
+| 🗳️ ZAB 选举 | Leader 选举过程动画 | [查看](https://zookeeper-home.github.io/zk-visual-election/) |
+| 👁️ Watcher 机制 | 数据变更通知机制动画 | [查看](https://zookeeper-home.github.io/zk-visual-watcher/) |
+| ✍️ 写请求流程 | 2PC 提交流程动画 | [查看](https://zookeeper-home.github.io/zk-visual-write-flow/) |
+| ⏱️ Session 机制 | 会话与临时节点动画 | [查看](https://zookeeper-home.github.io/zk-visual-session/) |
+| 💥 故障容错 | 集群故障与恢复动画 | [查看](https://zookeeper-home.github.io/zk-visual-fault/) |
 
 ## 技术栈
 

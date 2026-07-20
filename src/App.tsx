@@ -18,7 +18,7 @@ const TOPICS: TopicCard[] = [
     description:
       '可视化展示 ZooKeeper 集群中 Leader 选举的完整过程：节点自投票、投票交换、过半机制、Leader 产生。理解 ZAB 协议如何保证集群一致性。',
     tags: ['FastLeaderElection', '过半机制', 'ZAB 协议'],
-    url: 'https://zookeeper-home.github.io/zk-election-visual/',
+    url: 'https://zookeeper-home.github.io/zk-visual-election/',
     className: styles.cardElection,
   },
   {
@@ -28,7 +28,7 @@ const TOPICS: TopicCard[] = [
     description:
       '可视化展示 Watcher 的完整生命周期：注册监听、数据变更、事件通知、Watcher 消费、重新注册。理解 ZooKeeper 的一次性通知语义。',
     tags: ['一次性通知', 'NodeDataChanged', '事件类型'],
-    url: 'https://zookeeper-home.github.io/zk-watcher-visual/',
+    url: 'https://zookeeper-home.github.io/zk-visual-watcher/',
     className: styles.cardWatcher,
   },
   {
@@ -38,7 +38,7 @@ const TOPICS: TopicCard[] = [
     description:
       '可视化展示写请求的完整处理链路：客户端请求 → Leader 提议 → Followers ACK → 过半提交 → 响应客户端。理解 ZooKeeper 的类 2PC 提交协议。',
     tags: ['2PC', 'Proposal', 'ACK', 'Commit'],
-    url: 'https://zookeeper-home.github.io/zk-write-flow-visual/',
+    url: 'https://zookeeper-home.github.io/zk-visual-write-flow/',
     className: styles.cardWrite,
   },
   {
@@ -48,7 +48,7 @@ const TOPICS: TopicCard[] = [
     description:
       '可视化展示 Session 的完整生命周期：连接建立、心跳保活、临时节点创建、超时过期、临时节点自动删除。理解 Session 与临时节点的绑定关系。',
     tags: ['心跳机制', '临时节点', 'Session 超时'],
-    url: 'https://zookeeper-home.github.io/zk-session-visual/',
+    url: 'https://zookeeper-home.github.io/zk-visual-session/',
     className: styles.cardSession,
   },
   {
@@ -58,7 +58,7 @@ const TOPICS: TopicCard[] = [
     description:
       '可视化展示集群故障场景：Follower 宕机、Quorum 丢失、Leader 重新选举、数据同步恢复。理解 ZooKeeper 如何在部分节点故障时保持可用性。',
     tags: ['Quorum', '脑裂', '数据同步', 'DIFF/TRUNC'],
-    url: 'https://zookeeper-home.github.io/zk-fault-visual/',
+    url: 'https://zookeeper-home.github.io/zk-visual-fault/',
     className: styles.cardFault,
   },
 ]
